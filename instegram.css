@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background: wheat;
+    width: 40vw;
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+
+
+}
+#video {
+    grid-column: 2;
+    color: white;
+}
+#txtHeader {
+    grid-column: 8;
+    color: white;
+}
+#search {
+    grid-column: 14;
+    color: white;
+}
+
+
+
+main {
+    width: 40vw;
+    height: 500px;
+    background: gray;
+
+}

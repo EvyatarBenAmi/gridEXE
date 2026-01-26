@@ -1,0 +1,145 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: rgb(27, 31, 64);
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#time {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    color: white;
+}
+
+#topIcons {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+#specificIconTop {
+    color: white;
+}
+
+#sectiomTwo {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#angleLeft {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+#sectiomTwoIcons {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+#sectiomImgSenter {
+    background-color: aqua;
+    width: 68%;
+    height: 30%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    background: url('./Rectangle\ 7.png');
+}
+#imgSenter {
+    width: 100%;
+    height: 92%;
+}
+#heart {
+    position: absolute;
+    width: 48%;
+    height: 10%;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+#textSong{
+    color: rgba(255, 255, 255, 0.996);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4%;
+}
+#topTitleSong{
+    font-size: 18px;
+}
+#titleSong{
+    color: rgba(255, 255, 255, 0.506);
+    font-size: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#lowerArrowsSection{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+#lowerArrows{
+    background-color: rgb(109, 157, 157);
+    width: 90%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#arrows{
+    font-size: 25px;
+}
+#circlePlay{
+    font-size: 30px;
+}
+
+#rows{
+    background-color: aqua;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100vh; */
