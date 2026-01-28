@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box1{
+    width: 50vw;
+    height: 50vh;
+    background-color: greenyellow;
+}
+.box2{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+}
+@media(width < 300px){
+    .box{
+        background-color: red;
+    }
+    .box2{
+        background-color: yellow;
+    }
+    /* .box2{
+        display: none;
+    } */
+}
+

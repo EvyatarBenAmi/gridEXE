@@ -1,0 +1,10 @@
+section:nth-of-type(odd){
+    background: rgba(0, 0, 255, 0.317);
+}
+
+section::before{
+    content: '" ';
+}
+section::after{
+    content: ' "';
+}
